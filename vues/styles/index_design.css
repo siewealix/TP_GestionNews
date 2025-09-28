@@ -1,0 +1,97 @@
+/* Styles généraux */
+
+body {
+    background-color: #f8f8f8;
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    .container {
+    max-width: 60%;
+    margin: 0 auto;
+    }
+    
+    /* Styles des news */
+    
+    .news {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.5);
+    word-wrap: break-word;
+    
+    }
+    
+    .news h2 {
+    margin-top: 0;
+    color: #0077cc;
+    font-size: 20px;
+    font-weight: bold;
+    
+    }
+
+    .news h2:hover{
+        text-decoration: underline;
+    }
+    
+    .news p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+    }
+    
+    .news a {
+    text-decoration: none;
+    color: #0077cc;
+    }
+    
+    .news:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.8);
+    }
+    
+    .news .date {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    
+    .news .date.published {
+    background-color: #0077cc;
+    }
+    
+    .news .date.modified {
+    background-color: #ee7600;
+    margin-left: 35px;
+    }
+    
+    .news .content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+    text-align: justify;
+    }
+    
+    /* Media queries */
+    
+    @media only screen and (max-width: 768px) {
+    .container {
+    max-width: 90%;
+    }
+    }
+    
+    @media only screen and (max-width: 576px) {
+    .news {
+    border-radius: 10px;
+    padding: 10px;
+    }
+    }
