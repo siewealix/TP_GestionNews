@@ -1,4 +1,4 @@
-# Gestion News (PHP natif)
+# Gestion News
 
 Plateforme de news modernisée en PHP natif avec un socle MVC léger, sécurisée et prête pour un usage local.
 
@@ -6,7 +6,7 @@ Plateforme de news modernisée en PHP natif avec un socle MVC léger, sécurisé
 - Accueil avec articles paginés, mise en avant, dernières publications.
 - Pages article avec tags, catégories, articles liés, compteur de vues (par session).
 - Catégories, tags, recherche, RSS, sitemap.
-- Page À propos + formulaire de contact.
+- Page À propos et formulaire de contact.
 - Admin complet : login/logout, dashboard, CRUD articles, catégories, tags, utilisateurs, paramètres.
 - Sécurité : PDO préparé, CSRF, validation serveur, sessions, hash de mots de passe, RBAC.
 
